@@ -5,14 +5,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 # Inherit from ha3g device
 $(call inherit-product, device/samsung/ha3g/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
-# Inherit more LineageOS stuff.
-$(call inherit-product, vendor/cm/config/telephony.mk)
+# Inherit more MK stuff.
+$(call inherit-product, vendor/mk/config/telephony.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_ha3g
+PRODUCT_NAME := mk_ha3g
 PRODUCT_DEVICE := ha3g
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung

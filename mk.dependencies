@@ -1,5 +1,9 @@
 [
     {
+        "repository": "android_vendor_samsung_ha3g",
+        "target_path": "vendor/samsung/ha3g"
+    },
+    {
         "repository": "android_device_samsung_exynos5420-common",
         "target_path": "device/samsung/exynos5420-common"
     }
